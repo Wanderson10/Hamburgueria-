@@ -141,7 +141,7 @@ box-sizing: border-box;
 }
 
 .botaoRemoverTodos:hover {
-    box-shadow: inset 250px 0 0 0 #27AE60;
+    box-shadow: inset 260px 0 0 0 #27AE60;
     color: white;
   }
 .caixaDeInformacoes{

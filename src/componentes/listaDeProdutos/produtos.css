@@ -62,7 +62,7 @@
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 .botaoProduto:hover{
-    box-shadow: inset 70px 0 0 0 #00ff6a;
+    box-shadow: inset 76px 0 0 0 #00ff6a;
     color: white;
     cursor:pointer;
 }
