@@ -12,6 +12,7 @@
 }
 
 .produtosUl{
+  width: 100%;
   display: flex;
   overflow:auto; 
 }
