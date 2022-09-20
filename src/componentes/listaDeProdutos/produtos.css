@@ -1,0 +1,77 @@
+.imagem{
+    width: 220px;
+    height: 190px;
+}
+
+
+.cards{
+    width: 400px;
+    height: 350px;
+    border: 2px solid rgb(238, 238, 238);
+    margin-left: 15px;
+     margin-top: 15px;
+     transition: all 0.6s;
+    
+}
+.cards:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    border: 2px solid rgb(207, 207, 207);
+}
+
+.figura{
+    background-color: rgb(250, 250, 250);
+}
+@font-face {
+    font-family: "Inter";
+    src: url(/src/fontes/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+.texto{
+    margin-bottom: 15px;
+    font-family: "inter";
+    
+}
+
+.tituloProduto{
+    margin-top: 10px;
+}
+
+.categoriaProduto{
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 16px;
+    color: rgb(172, 172, 172);
+}
+
+.valorProduto{
+
+  color:#27AE60 ;
+}
+
+
+.botaoProduto{
+    font-family: "inter";
+    font-weight: 100;
+    height: 35px;
+    margin-top: 10px;
+    background-color: #00ad48;
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+.botaoProduto:hover{
+    box-shadow: inset 70px 0 0 0 #00ff6a;
+    color: white;
+    cursor:pointer;
+}
+
+
+@media screen and (min-width: 425px) {
+    .cards{
+        width: 250px;
+        height: 200px;
+    }
+    
+}

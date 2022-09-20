@@ -1,0 +1,43 @@
+
+.app{
+  width: 100%;
+}
+
+.carrinhoApp{
+   margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  
+}
+
+.produtosUl{
+  display: flex;
+  overflow:auto; 
+}
+
+@media screen and (min-width: 425px) {
+   
+  .main{
+    width: 100%;
+  }
+  
+  .produtosUl{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 180%;
+    }
+
+    .carrinhoApp{
+      float: right;
+      box-sizing: border-box;
+      width: 50%;
+    }
+
+    
+
+    .finalizacao{
+      display: flex;
+    }
+}

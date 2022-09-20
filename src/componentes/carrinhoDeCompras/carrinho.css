@@ -1,0 +1,151 @@
+.carrinhoCompras{
+
+position: absolute;
+box-sizing: border-box;
+
+
+}
+
+@media screen and (min-width: 425px) {
+  .carrinhoCompras{ width: 20%;
+   
+}
+}
+@font-face {
+    font-family: "inter";
+    src: url(/src/fontes/Inter/static/Inter-Bold.ttf);
+}
+
+.tituloCarrinho{
+    display: flex;
+    justify-content: center;
+    font-family:"inter";
+    align-items: center;
+    height: 40px;
+    background-color:#27AE60 ;
+    width: 100%;
+    color: aliceblue;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: start;
+    box-sizing: border-box;
+    
+    
+    
+}
+
+.listaCarrinho{
+    background-color:#F5F5F5 ;
+   
+  
+    margin: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+    
+    
+    
+}
+
+.caixaDeTexto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+}
+.textoInicial{
+    font-family: "inter";
+    
+    
+}
+
+.subTexto{
+    font-family: "inter";
+     font-size: 10px;
+     font-weight: 100;
+     text-align: center;
+}
+
+
+ .imagemCarrinho{
+    width: 80px;
+    height: 80px;
+ }
+
+ .cardsCarrinho{
+   display: flex;
+   height: 90%;
+    
+ }
+
+ .ulListaCarrinho{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+ }
+
+ .botaoProdutoCarrinho{
+    border-radius: 4px;
+    border: none;
+    background-color: #27AE60;
+    color: aliceblue;
+    cursor: pointer;
+    margin-bottom: 5px;
+    transition: all 0.5s;
+ }
+ .botaoProdutoCarrinho:hover{
+    transform: scale(1.1);
+ }
+
+.caixaValorTotal{
+    width: 100%;
+    height:100px;
+    border-top: solid #bebebe 1px;
+    background-color:#F5F5F5;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.caixaEspaço{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+}
+.textoValorTotal{
+    color: black;
+    font-family: "inter";
+}
+.valor{
+    font-family: "inter";
+    color: black;
+}
+
+.botaoRemoverTodos{
+    font-family: "inter";
+    border: none;
+    border-radius: 5px;
+    background-color:#E0E0E0 ;
+    cursor: pointer;
+    width: 95%;
+    height: 30%;
+    margin-top: 30px;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    
+}
+
+.botaoRemoverTodos:hover {
+    box-shadow: inset 250px 0 0 0 #27AE60;
+    color: white;
+  }
+.caixaDeInformacoes{
+    width: 100%;
+}
+
+ 
